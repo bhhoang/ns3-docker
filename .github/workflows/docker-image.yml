@@ -17,6 +17,6 @@ jobs:
     - name: Login to Docker Hub
       run:  echo ${{ secrets.DOCKERPAT }} | docker login -u bhhoang --password-stdin
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag nanika/ns3:latest
+      run: docker build . --file Dockerfile --tag bhhoang/ns3:latest
     - name: Publish to Dockerhub
-      run: docker push nanika/ns3:latest
+      run: docker push bhhoang/ns3:latest
