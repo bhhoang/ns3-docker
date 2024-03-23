@@ -19,4 +19,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag nanika/ns3:latest
     - name: Publish to Dockerhub
-      run: docker push nanika:ns3:latest
+      run: docker push nanika/ns3:latest
