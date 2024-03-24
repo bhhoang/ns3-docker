@@ -6,7 +6,6 @@
 ---
 This is ns3 Dockerfile use for build an image of ns3 then run it as container
 ## Usage
----
 1. Install [git](https://git-scm.com) 
 2. Follow [this document](https://docs.docker.com/engine/install/) to install docker engine and turn it on using systemd
 ```sh
@@ -23,12 +22,12 @@ cd ns3-docker
 In case you are new to docker and not using docker desktop which is trash, here are some guide for this
 4. Build the image using the Docker file
 ```sh
-sudo docker build -t nanika/ns3 .
+sudo docker build -t bhhoang/ns3 .
 ```
 and wait for the build
 5. The container can be created using the command
 ```sh
-sudo docker run -it --name NETSIM nanika/ns3
+sudo docker run -it --name NETSIM bhhoang/ns3
 ```
 Can be started using the command
 ```sh
@@ -40,5 +39,6 @@ sudo docker exec -it NETSIM bash
 ```
 With NETSIM being your desire name for the container.
 ## P/S
----
-Feel free to ask!
+You can also go to docker hub on [this image](https://hub.docker.com/repository/docker/bhhoang/ns3/general) and pull it 
+Feel free to ask. My discord is `.nanika`
+`
