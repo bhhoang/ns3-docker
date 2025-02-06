@@ -1,7 +1,13 @@
 # ns3-docker
-## Table of content
-- [Introduction](#Introduction)
-- [Usage](#Usage)
+
+<details open="open">
+  <summary><h2>Table of content<h2></summary>
+  <ul>
+    <li> <a href="#Introduction">Introduction</a> </li> 
+    <li><a href="#Usage">Usage</a></li>
+  </ul>
+</details>
+
 ## Introduction
 This is ns3 Dockerfile use for build an image of ns3 then run it as container
 ## Usage
